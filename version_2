@@ -81,6 +81,6 @@ while True:
                 timestamp = time.strftime('%Y-%m-%d %H:%M:%S')
                 log_file.write(f'{timestamp}: Reset triggered\n')
 
-time.sleep(time_between_pings)
+        time.sleep(time_between_pings)
 (END)
 

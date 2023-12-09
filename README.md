@@ -1,5 +1,5 @@
 # router_restart
-A program designed to restart and device (by powering off and on), using a relay, if a ping fails.
+A program designed to restart a device (by powering off and on), using a relay, if a ping fails.
 
 I use this program on a Raspberry Pi. It utilises the GPIO ports. If a ping to Google (IP address can be changed in the variable section) fails, then, a relay is triggered. 
 
